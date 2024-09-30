@@ -2,12 +2,16 @@ package gitbranchnb;
 public class GitBranchNb {
 
     public static void main(String[] args) {
-        int i = GitBranchNb.fv();
+        GitBranchNb obj = new GitBranchNb();
+        int i = obj.fv();
     }
 
-    private static int fv() {
-        System.out.println("static fv");
-        return -1;
+    private int fv() {
+        System.out.println("Nem static fv");
+        return 0;
     }
     
+    public void elj() {
+        
+    }
 }
