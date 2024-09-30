@@ -10,4 +10,8 @@ public class GitBranchNb {
         System.out.println("Nem static fv");
         return 0;
     }
+    
+    public void elj() {
+        
+    }
 }
